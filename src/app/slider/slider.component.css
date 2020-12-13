@@ -1,0 +1,11 @@
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.carousel-indicators li{
+    background-color:red;
+}
+.carousel.slide{
+    position: relative;
+    top: 0px;
+}

@@ -1,0 +1,376 @@
+.recharge{
+background:rgb(187,0,0);
+height: 200px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.her{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 350px    ;
+}
+.hd{
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.hd-cn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:#fff;
+}
+.tabs{
+    width: 600px;
+    height: 40px;
+    background:rgb(242, 242, 242);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tabs ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+}
+.lik{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.oi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.lik div{
+    margin-left:10px;
+    padding-top: 8px;
+    width: 60px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background:#f3f5f7;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 2px solid lightgray;
+}
+.lik input{
+    height: 40px;
+    border:none;
+    width: 400px;
+    outline: none;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+.lik button{
+    background:#fff;
+    padding:10px 30px;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border:none;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+.lik input:active{
+    border: none;
+    outline: none;
+}
+.tabs ul li img{
+    width: 30px;
+    margin-right: 20px;
+}
+.tabs ul li{
+    font-size: 12px;
+    font-weight: bold;
+    width:   150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.active{
+    background:#fff;
+    color:rgb(228, 0, 0);
+}
+@media(max-width:575px){
+    .tabs ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .tabs{
+        width: 340px;
+        height: auto;
+        background:rgb(242, 242, 242);
+        border-radius: 5px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 15px;
+    }
+    .recharge{
+        background:rgb(187,0,0);
+       height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+        }  
+        .lik input{
+            height: 40px;
+            border:none;
+            width: 170px;
+            outline: none;
+            font-size: 12px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+            padding-left: 5px;
+            margin-right: 10px;
+        }
+        .lik button{
+            background:#fff;
+            padding:8px 10px;
+            color:red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            border:none;
+            text-transform: uppercase;
+            border-radius: 6px;
+        }
+        .oi{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .lik{
+            width: auto;
+            height: 40px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 88%;
+            transform: translate(-50%,0);
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center; 
+        }
+}
+@media (min-width:576px)and (max-width:767px){
+    .tabs{
+        width: 340px;
+        height: auto;
+        background:rgb(242, 242, 242);
+        border-radius: 5px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 15px;
+    }   
+    .tabs ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around   ;
+    }
+    .tabs ul li{
+        font-size: 12px;
+        font-weight: bold;
+    width: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .tabs ul li img{
+        width: 30px;
+        margin-right: 5px;
+    }
+    .lik{
+        width: auto;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center; 
+    }
+    .lik div{
+        margin-left:15px;
+        padding-top: 5px;
+        width: 42px;
+        font-size: 14px;
+        height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background:#f3f5f7;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: 2px solid lightgray;
+    }
+    .lik input{
+        height: 30px;
+        border:none;
+        width: 200px;
+        outline: none;
+        font-size: 15px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    .recharge{
+        background:rgb(187,0,0);
+       height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+        }
+        .lik button{
+            background:#fff;
+            padding:8px 10px;
+            color:red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            border:none;
+            text-transform: uppercase;
+            border-radius: 6px;
+        }
+        .her{
+            margin-left: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 350px    ;
+        }
+}
+@media(min-width:768px) and (max-width:991px){
+    .oi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tabs{
+        width: 500px;
+        height: 40px;
+        background:rgb(242, 242, 242);
+        border-radius: 5px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tabs ul li{
+        font-size: 12px;
+        font-weight: bold;
+        width:   110px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .tabs ul li img{
+        width: 30px;
+        margin-right: 5px;
+    }
+    .recharge{
+        background:rgb(187,0,0);
+        height: auto;
+        display: flex;
+        padding:10px;
+        flex-direction: column;
+        justify-content: space-around;
+        }
+        .her{
+            margin-left: 50%;
+            transform: translate(-50%,0);
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            width: 350px    ;
+        }
+        .lik{
+            width: 500px;
+            height: 40px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center; 
+        }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .tabs{
+        width: 530px;
+        height: 40px;
+        background:rgb(242, 242, 242);
+        border-radius: 5px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }   
+    .recharge{
+        background:rgb(187,0,0);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        }
+        .lik{
+            width: 500px;
+            height: 40px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center; 
+        }
+}

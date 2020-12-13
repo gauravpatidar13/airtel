@@ -1,0 +1,110 @@
+.oil{
+    padding-left: 70px;
+background-image: url("/assets/images/banner2.png");
+background-repeat: no-repeat;
+display: flex;
+flex-direction: row;
+height: 300px;
+justify-content: space-evenly;
+}
+img{
+    height: 89%;
+    margin-top: 15px;
+}
+.xk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+padding-bottom: 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+button{
+    background:#fff;
+    color:#bb0000;
+    border:none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding:10px 20px;
+}
+button:hover{
+    background: 5red;
+    color:#fff;
+}
+h6{
+ font-size: 20px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-weight: 500;
+    color:#fff;
+}
+h4{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: 100;
+}
+h3{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+@media (max-width:567px){
+   .xk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oil{
+    padding-left: 10px;
+    background-image: url(/assets/images/banner2.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+}
+img{
+    height: auto;
+    width: 90%;
+    margin-top: 15px;
+}
+}
+@media (min-width:568px) and (max-width:767px){
+    .xk{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .oil{
+        padding-left: 10px;
+        background-image: url(/assets/images/banner2.png);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-evenly;
+    }
+    img{
+        height: auto;
+        width: 90%;
+        margin-top: 15px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+
+    img{
+        height: auto;
+        width: 80%;
+        margin-top: 15px;
+    }
+}
