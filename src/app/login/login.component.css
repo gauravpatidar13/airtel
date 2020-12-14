@@ -1,0 +1,36 @@
+.logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.log{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.log input{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.log .ot{
+    text-transform: uppercase;
+    font-size: 10px;
+    color:#f00;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.log button{
+    text-transform: uppercase;
+    background:red;
+    font-size: 12px;
+    width: 250px;
+}
+
+.log .fp{
+    font-size: 15px;
+ cursor: pointer;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color:#bb0000;
+}

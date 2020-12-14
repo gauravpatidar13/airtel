@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 .left{
 width: 180px;
@@ -60,7 +61,102 @@ background:#fff;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content:center;
+    }
+    .left{
+    width: 290px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.right .oig{
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right{
+    width: 400px;
+    height: 310px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.oig .ser{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+}
+@media (min-width:568px) and (max-width:767px){
+    .iok{
+        background-image: url("/assets/images/banner.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .oig .ser{
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .left{
+        width: 285px;
+height: 400px;
+margin-top: 30px;
+margin-bottom: 30px;
+background:#fff;
+    }
+    .right .oig{
+        text-transform: uppercase;
+        color: #fff;
+        margin-left: 20px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .right{
+        width: 400px;
+        height: 250px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .oig .ser{
+        margin-top: 40px;
+        font-weight: 500;
+        margin-left: 70px;
+        font-size: 30px;    
+    }
+    .oig button{
+        background: #fff;
+    color: #bb0000;
+    border: none;
+    margin-left: 70px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    }
+    .oig .hr{
+        width: 40px;
+    height: 5px;
+    margin-left: 70px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background: #fff;
+    }
+    .oig div{
+        margin-left: 70px;
     }
 }
 @media(min-width:992px) and (max-width:1199px){

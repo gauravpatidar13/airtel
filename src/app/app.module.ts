@@ -13,6 +13,9 @@ import { AirtelXStreamComponent } from './airtel-x-stream/airtel-x-stream.compon
 import { TalkComponent } from './talk/talk.component';
 import { WyncMusicComponent } from './wync-music/wync-music.component';
 import { Header1Component } from './header1/header1.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
+import { LoginSliderComponent } from './login-slider/login-slider.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { Header1Component } from './header1/header1.component';
     AirtelXStreamComponent,
     TalkComponent,
     WyncMusicComponent,
-    Header1Component
+    Header1Component,
+    LoginComponent,
+    HomeComponent,
+    LoginSliderComponent
   ],
   imports: [
     BrowserModule,

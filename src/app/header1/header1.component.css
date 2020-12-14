@@ -31,3 +31,25 @@ color:red;
 .navbar-nav .nav-item:hover>.inp{
 display: flex;
 }
+.xcc{
+    width: 300px;
+    height: 70px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.xki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin:5px 10px;
+}
+.xki p{
+    font-size: 12px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
