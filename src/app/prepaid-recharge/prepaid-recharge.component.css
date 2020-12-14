@@ -1,0 +1,73 @@
+.logo{
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+    border-top:1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.lef{
+    width: 400px;
+    height: 400px;
+    background:rgb(246, 246, 246);
+}
+.lef h3{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.lef span{
+    color:#bb0000;
+}
+.prp{
+    display: flex;
+    flex-direction: row;
+
+}
+.righ{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.righ input{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+.righ input:focus{
+    border:none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+.righ .cb{
+    font-weight: 100;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.righ .cb .xb{
+    color:#000;
+    color:gray;
+}
+.righ .nv{
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#707070;
+}
+@media(max-width:576px){
+    .prp{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .righ{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .lef{
+        width: 400px;
+        height: auto;
+        background:rgb(246, 246, 246);
+    }
+    .lef h3{
+        padding-top: 10px;
+        padding-left: 30px;
+        font-size: 25px;
+    }   
+}

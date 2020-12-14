@@ -16,6 +16,7 @@ import { Header1Component } from './header1/header1.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { LoginSliderComponent } from './login-slider/login-slider.component';
+import { PrepaidRechargeComponent } from './prepaid-recharge/prepaid-recharge.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LoginSliderComponent } from './login-slider/login-slider.component';
     Header1Component,
     LoginComponent,
     HomeComponent,
-    LoginSliderComponent
+    LoginSliderComponent,
+    PrepaidRechargeComponent
   ],
   imports: [
     BrowserModule,

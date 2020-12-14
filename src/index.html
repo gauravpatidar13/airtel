@@ -9,5 +9,14 @@
 </head>
 <body>
   <app-root></app-root>
+  <script>
+    $('.carousel-control.left').click(function() {
+  $('#myslideshow').carousel('prev');
+});
+
+$('.carousel-control.right').click(function() {
+  $('#myslideshow').carousel('next');
+});
+  </script>
 </body>
 </html>
